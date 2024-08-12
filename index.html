@@ -1,0 +1,58 @@
+<html>
+<head>
+<h2>&copy; &nbsp;GUSTAVO's BAKERY</h2>
+  </head>
+
+  <body>
+
+
+
+    <header>
+    <h3>  <marquee>"Experience the Art of Baking: Where Every Pizza is a Masterpiece."</marquee> </h3>
+  <h4><a href="https://en.wikipedia.org/wiki/Pizza"> Pizza</a> is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.</h4>
+      </header>
+      <main>
+
+      <img src="pizza.JPG">
+      <section id="contact-form">
+      <form method="GET" action="place-order.php">
+        <h3>Delivery-Method</h3>
+          <input name="delivery-method" type="radio" value="Delivery">Delivery<br />
+          <input name="delivery-method" type="radio" value="Takeaway">Takeaway<br />
+
+        <h3>Address</h3>
+        <input name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+        <input name="address2" placeholder="Address Line 2" class="lg-input" /><br />
+        <input name="Pincode" placeholder="Pincode" class="sm-input" /><br />
+        <input name="contact" placeholder="contact" class="integer"/ >
+
+        <h3>Toppings</h3>
+        <input name="ingredients" type="checkbox" value="paneer"/>Paneer<br />
+        <input name="ingredients" type="checkbox" value="Pepperoni"/>Pepperoni<br />
+        <input name="ingredients" type="checkbox" value="chicken"/>Chicken<br />
+        <input name="ingredients" type="checkbox" value="Mushroom"/>Mushroom<br />
+        <input name="ingredients" type="checkbox" value="Jalapeneo"/>Jalapeneo<br />
+
+        <section>
+          <h3>Pizza ASMR</h3><br />
+          <video width="320" height="240" controls>
+
+          <source src="pizzavid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        </section>
+        <h3>Size</h3>
+        <select name="quantity">
+          <option value="6'inch">6 inch - 199rs </option>
+          <option value="9'inch">9 inch - 399rs </option>
+          <option value="12'inch">12 inch - 499rs</option>
+          <option value="24'inch">24 inch - 1299rs</option>
+
+      </form>
+</section>
+
+
+</main>
+    </body>
+
+</html>
